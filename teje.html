@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tejesh Varma</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #000; /* Set the background color to black */
+            margin: 0;
+            padding: 0;
+            overflow: hidden; /* Hide horizontal scrollbar */
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100vh; /* Make the body fill the viewport height */
+        }
+
+        .name {
+            font-size: 48px;
+            font-weight: bold;
+            color: #fff; /* Set the text color to white */
+            opacity: 0; /* Start with the text hidden */
+        }
+
+        /* Keyframes for the entrance animation */
+        @keyframes animateEntrance {
+            0% {
+                transform: translateY(-100%);
+                opacity: 0;
+            }
+            100% {
+                transform: translateY(0);
+                opacity: 1;
+            }
+        }
+
+        /* Apply the animation to the .name class */
+        .name {
+            animation: animateEntrance 2s ease-in-out forwards;
+        }
+    </style>
+</head>
+<body>
+    <h1 class="name">
+        <span>T</span>
+        <span>e</span>
+        <span>j</span>
+        <span>e</span>
+        <span>s</span>
+        <span>h</span>
+        <span> </span>
+        <span> </span>
+        <span>V</span>
+        <span>a</span>
+        <span>r</span>
+        <span>m</span>
+        <span>a</span>
+    </h1>
+</body>
+</html>
+
+
